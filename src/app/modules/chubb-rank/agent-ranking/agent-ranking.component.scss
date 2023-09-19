@@ -1,6 +1,7 @@
 @import '../../../../theme/variables.scss';
 
 #setting-page__wrapper {
+    --ion-background-color: $gray-background;
     background-color: $gray-background;
 
     .header {

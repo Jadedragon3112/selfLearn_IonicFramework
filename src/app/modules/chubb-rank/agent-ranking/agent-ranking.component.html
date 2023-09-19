@@ -1,16 +1,16 @@
 <ion-content id="setting-page__wrapper" class="position-relative">
   <div>
     <div class="header"></div>
-    <div class="body position-absolute w-100 px-3">
-      <div class="card-header text-center bg-white">
+    <div class="body position-absolute w-100 px-3" [ngStyle]="{ 'top.px': 100 }">
+      <div class="card-header text-center bg-white d-flex flex-column justify-content-between">
         <div>
-          <div class="positon-relative" [ngStyle]="{ 'height.px': 52 }">
-            <img src="assets/icon/setting-page/chubb-avatar.svg">
+          <div class="positon-relative d-flex justify-content-center" [ngStyle]="{ 'height.px': 52 }">
+            <img class="position-absolute" [ngStyle]="{ 'top.px': -40 }" src="assets/icon/setting-page/chubb-avatar.svg">
           </div>
           <div class="headline-3 fw-bold">Nguyễn Đỗ Dương</div>
           <div class="text-secondary body__title">MS: 000001</div>
         </div>
-        <div class="fst-italic text-secondary">Đăng nhập cuối: 20:11:00 01/03/2020</div>
+        <div class="fst-italic text-secondary py-2 border-top">Đăng nhập cuối: 20:11:00 01/03/2020</div>
       </div>
       <div class="card-body"></div>
     </div>
