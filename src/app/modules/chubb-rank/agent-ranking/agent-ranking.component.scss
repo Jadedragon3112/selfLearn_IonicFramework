@@ -1,0 +1,16 @@
+@import '../../../../theme/variables.scss';
+
+#setting-page__wrapper {
+    background-color: $gray-background;
+
+    .header {
+        min-height: 157px;
+        background-color: $dark-blue;
+    }
+
+    .body {
+        .card-header {
+            height: 145px ;
+        }
+    }
+}

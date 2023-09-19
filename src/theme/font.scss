@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Chubb Publico';
+    src: url('/assets/font/ChubbPublicoTextVN-Roman.ttf');
+}
+
+@font-face {
+    font-family: 'Chubb Publico';
+    src: url('/assets/font/ChubbPublicoTextVN-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Chubb Publico';
+    src: url('/assets/font/ChubbPublicoTextVN-Italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Chubb Publico';
+    src: url('/assets/font/ChubbPublicoTextVN-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+* {
+    font-family: 'Chubb Publico';
+}
